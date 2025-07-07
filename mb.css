@@ -1,0 +1,165 @@
+body{
+    background-color: #F2E5BF;
+    margin: 0px;
+}
+.bf{
+    text-align: center;
+    font-family: Rubik Dirt;
+    font-size: 45px;
+    color:  #257180;
+}
+.color-strip {
+  width: 100%;              
+  height: 50px;            
+  background-color: #FD8B51; 
+  margin-top: 40px;
+}
+.color-strip :hover{
+    background-color: #CB6040;
+}
+.MBW{
+    font-family: Galindo;
+    font-size: 25px;
+    padding: 10px;
+    color: #257180;
+}
+.des{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+    margin-top: 50px;
+}
+.s{
+    width: 5px;
+    height: 80px;
+    background-color: #257180;
+}
+.des h3{
+    font-family: Galindo;
+    color: #257180;
+}
+.sh{
+    font-family: Galindo;
+    color: #257180;
+    margin-left: 10%;
+}
+.bo{
+    height: 5px;
+    width: 80%;
+    background-color: #FD8B51;
+    margin: 50px auto;
+}
+.text-sec {
+  width: 80%;               
+  margin: 100px auto;       
+  text-align: left;         
+  padding: 20px;            
+  border-radius: 10px;      
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);  
+}
+
+.text-sec h2 {
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #CB6040;
+  text-align: center;
+  font-family: Galindo;
+}
+
+.text-sec p {
+  font-size: 18px;
+  color: #257180;
+  line-height: 1.6;
+  font-family: sans-serif;
+}
+/* Section container */
+.workout-section {
+  max-width: 800px;
+  margin: 80px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Heading */
+.workout-section h2 {
+  text-align: left;
+  font-size: 30px;
+  color: #257180;
+  margin-bottom: 25px;
+  font-family: Galindo;
+}
+
+/* Table setup */
+.workout-table {
+  width: 100%;
+  border-collapse: separate;     /* allows spacing */
+  border-spacing: 0 15px;        /* vertical gaps between rows */
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Table header */
+.workout-table th {
+  background-color: #FD8B51;     /* Top row color */
+  color: #F2E5BF;
+  padding: 14px;
+  text-align: left;
+  font-size: 18px;
+}
+
+/* Table rows */
+.workout-table td {
+  background-color: #f2e5bf;     /* Match your website theme background */
+  color: #CB6040;
+  padding: 14px;
+  font-size: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.workout-table tbody tr:hover td {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .workout-table, .workout-table thead, .workout-table tbody, .workout-table tr, .workout-table td, .workout-table th {
+    display: block;
+    width: 100%;
+  }
+
+  .workout-table thead {
+    display: none; /* hide the header on small screens */
+  }
+
+  .workout-table tr {
+    margin-bottom: 20px;
+  }
+
+  .workout-table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .workout-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 16px;
+    width: 45%;
+    padding-left: 10px;
+    font-weight: bold;
+    text-align: left;
+    color: #333;
+  }
+}
+

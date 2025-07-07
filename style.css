@@ -1,0 +1,104 @@
+body{
+    margin: 10px;
+    margin-right: 0px;
+    background-color: #F2E5BF;
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    background-color: #FD8B51;
+    overflow: hidden;
+}
+.navbar a{
+    color:  #257180;
+    text-decoration: none;
+    padding: 25px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: #CB6040;
+}
+.navbar li{
+    float: left;
+}
+.bf{
+    text-align: center;
+    font-family: Rubik Dirt;
+    font-size: 45px;
+    color:  #257180;
+}
+.container {
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center;
+  flex-wrap: wrap;          /* allow wrapping on small screens */
+  gap: 30px;                /* equal space between boxes */
+  min-height: 400px;
+  background-color: rgb(129, 210, 191);
+  padding: 30px 0;          /* top & bottom padding */
+}
+
+.container div {
+  width: 335px;
+  height: 370px;
+  background: #F2E5BF;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+  border: 5px solid black;
+}
+.container img:hover{
+    transform: scale(1.09);
+    transition: transform 0.4s ease;
+}
+.gl{
+    font-family: Galindo;
+    font-size: 25px;
+    padding: 10px;
+    color: #257180;
+}
+.ad{
+    width: 100%;
+    height: 700px;
+    border: black solid;
+}
+.im{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.he{
+    text-align: center;
+    color: #257180;
+}
+.wc{
+    font-family: Galindo;
+}
+.color-strip {
+  width: 100%;              
+  height: 50px;            
+  background-color: #FD8B51; 
+  margin-top: 40px;
+}
+.color-strip :hover{
+    background-color: #CB6040;
+}
+.MBW{
+    font-family: Galindo;
+    font-size: 25px;
+    padding: 10px;
+    color: #257180;
+}
